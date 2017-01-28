@@ -163,3 +163,9 @@ Theme Styles
     background: #8DC63F;
     /*Green*/
 }
+
+.background-dark {
+    background: #594a42;
+    color: white;
+    /*Brown*/
+}
