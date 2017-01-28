@@ -103,6 +103,12 @@ Layout Styles
     }
 }
 
+@media (min-width: 48em) {
+    .pull-right-sm {
+        float: right;
+    }
+}
+
 
 /***************************
 ****************************
