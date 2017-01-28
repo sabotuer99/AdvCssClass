@@ -116,6 +116,25 @@ Layout Styles
     }
 }
 
+@media (min-width: 48em) {
+    [class*='col-'] {
+        float: left;
+    }
+    .col-1-2 {
+        width: 50%;
+    }
+    .col-1-4 {
+        width: 25%;
+    }
+    .col-1-6 {
+        width: 16.6666%;
+    }
+}
+
+.empty {
+    min-height: 1px;
+}
+
 
 /***************************
 ****************************
