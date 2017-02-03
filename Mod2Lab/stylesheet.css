@@ -144,6 +144,14 @@ Modules
     color: white;
 }
 
+@media (min-width: 48em) {
+    .btn.btn-primary,
+    .btn.btn-nav {
+        padding: 10px 15px;
+        font-size: 1.125em;
+    }
+}
+
 .btn-primary:hover {
     background: none;
     border-color: white;
@@ -152,6 +160,14 @@ Modules
 
 .btn-nav {
     color: white;
+}
+
+.btn-hero {
+    padding: 15px 30px;
+    font-size: 1.75em;
+    color: #39B54A;
+    background-color: white;
+    transition: all 0.3s fade 0s;
 }
 
 
@@ -231,6 +247,33 @@ Modules
 
 .hero-body {
     position: relative;
+}
+
+
+/* Testimonial Modules */
+
+.testimonial {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 460px;
+}
+
+.testimonial-stars {
+    margin-bottom: 50px;
+    text-shadow: black 0px 0px 5px;
+    font-size: 6em;
+}
+
+.testimonial-author {
+    font-weight: bold;
+}
+
+.testimonial-text {
+    font-style: italic;
+}
+
+.testimonial-body {
+    height: 100%;
 }
 
 
