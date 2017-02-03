@@ -524,7 +524,13 @@ Header
       .header-primary:after {
         content: "";
         display: table;
-        clear: both; } }
+        clear: both; }
+      .header-primary .container {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex; } }
 
 /***************************
 Hero Modules
@@ -575,7 +581,7 @@ Logo Modules
     .logo-primary {
       width: auto;
       height: 50px;
-      float: left; } }
+      margin-right: auto; } }
 
 .logo-primary img {
   height: 100%; }
@@ -609,9 +615,6 @@ Nav Modules
   margin-top: 28px; }
   @media only screen and (min-width: 48em) {
     .nav-primary {
-      float: right;
-      width: 60%;
-      text-align: right;
       margin-top: 0px; }
       .nav-primary li {
         display: inline-block; } }
