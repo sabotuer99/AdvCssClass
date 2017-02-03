@@ -261,19 +261,25 @@ Modules
 .testimonial-stars {
     margin-bottom: 50px;
     text-shadow: black 0px 0px 5px;
-    font-size: 6em;
+    font-size: 4em;
 }
 
 .testimonial-author {
     font-weight: bold;
+    display: inline;
 }
 
 .testimonial-text {
     font-style: italic;
+    display: inline;
 }
 
 .testimonial-body {
+    font-size: 1.125em;
+    line-height: 2em;
     height: 100%;
+    overflow: scroll;
+    display: inline-block;
 }
 
 
