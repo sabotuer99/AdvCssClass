@@ -10,7 +10,7 @@ gulp.task('sass', function() {
                 })
             .pipe(gulp.dest(function(f) {
                 //console.log(f.base);
-                return "c:\\Projects\\AdvancedCss\\Mod3Lab\\css\\";
+                return "c:\\Projects\\AdvancedCss\\Mod4Lab\\css\\";
             }))
 });
 
