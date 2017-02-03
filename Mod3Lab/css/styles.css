@@ -396,6 +396,7 @@ a {
 a:hover {
   text-decoration: underline; }
 
+/* 768px / 16px = 48em */
 /***************************
 ****************************
 Layout Styles
@@ -429,13 +430,14 @@ Layout Styles
 @media (min-width: 48em) {
   [class*='col-'] {
     float: left; }
-  /* Column Two Thirds */
+  .col-1-12 {
+    width: 8.33333%; }
+  .col-1-6 {
+    width: 16.66667%; }
   .col-2-3 {
-    width: 66.6666%; }
-  /* Column Third */
+    width: 66.66667%; }
   .col-1-3 {
-    width: 33.3333%; }
-  /* Column Half */
+    width: 33.33333%; }
   .col-1-2 {
     width: 50%; } }
 
@@ -546,6 +548,11 @@ Logo Modules
 .logo-primary {
   width: 64px;
   height: 64px; }
+  @media only screen and (min-width: 48em) {
+    .logo-primary {
+      width: auto;
+      height: 50px;
+      float: left; } }
 
 .logo-primary img {
   height: 100%; }
