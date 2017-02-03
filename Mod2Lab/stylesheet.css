@@ -146,8 +146,8 @@ Modules
     text-decoration: none;
 }
 
-.btn-nav{
-  color: white;
+.btn-nav {
+    color: white;
 }
 
 
@@ -186,10 +186,40 @@ Modules
     margin: 0px;
 }
 
-.nav-primary{
-  margin: 35px;
+.nav-primary {
+    margin: 35px;
 }
 
+
+/*Hero Modules*/
+
+.hero {
+    text-align: center;
+}
+
+.hero-primary {
+    background-color: #594a42;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.hero-title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 2.625em;
+}
+
+.hero-subtitle {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.hero-subtitle+button {
+    margin-top: 25px;
+}
 
 
 /***************************
