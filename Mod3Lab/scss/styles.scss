@@ -2,7 +2,11 @@
 @import "base/normalize";
 @import "base/base"; 
 @import "base/media-queries"; 
+@import "base/mixins";
+
 @import "layout/layout";
+
+@import "modules/frame";
 @import "modules/bg-image";
 @import "modules/buttons";
 @import "modules/header";
@@ -10,4 +14,5 @@
 @import "modules/logo";
 @import "modules/media";
 @import "modules/nav";
+
 @import "themes/theme";
